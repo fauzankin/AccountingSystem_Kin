@@ -14,7 +14,7 @@ export default function Dashboard() {
     <div style={s.container}>
       {/* ── Hero ── */}
       <div style={s.hero}>
-        <img src="/LogoLima.png" alt="Logo PT Nusantara Logistik Trans" style={s.heroLogo} />
+        <img src="/LogoNLT.svg" alt="Logo NLT Logistik Trans" style={s.heroLogo} />
         <h1 style={s.heroTitle}>PT Nusantara Logistik Trans</h1>
         <p style={s.heroSub}>Finance & Accounting System</p>
         <p style={s.heroDate}>{hariIni}</p>

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logoLimas from '../../assets/image-removebg-preview.png'
+import logoNLT from '../../assets/LogoNLT.svg'
 
 const menuItems = [
   {
@@ -77,7 +77,7 @@ export default function Sidebar({ activePage, onNavigate, isOpen, onClose, darkM
       {/* ── HEADER: Logo + tombol tutup (mobile) ── */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '24px 20px', borderBottom: `1px solid ${c.logoBorder}` }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <img src={logoLimas} alt="Logo" style={{ width: '35px', height: 'auto' }} />
+          <img src={logoNLT} alt="Logo NLT Logistik" style={{ width: '35px', height: 'auto' }} />
           <span style={{ fontSize: '16px', fontWeight: '800', color: c.logoColor, whiteSpace: 'nowrap' }}>
             NLT Logistik
           </span>

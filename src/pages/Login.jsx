@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logoLimas from '../assets/image-removebg-preview.png';
+import logoNLT from '../assets/LogoNLT.svg';
 
 const API = import.meta.env.VITE_API_URL;
 
@@ -76,7 +76,7 @@ export default function Login({ onLogin }) {
     <div style={styles.container}>
       <div style={styles.loginCard}>
         <div style={styles.header}>
-          <img src={logoLimas} alt="Logo NLT Logistik" style={styles.logo} />
+          <img src={logoNLT} alt="Logo NLT Logistik" style={styles.logo} />
           <h1 style={styles.brandName}>NLT Logistik</h1>
         </div>
 
